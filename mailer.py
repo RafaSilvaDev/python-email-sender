@@ -13,7 +13,7 @@ host = 'smtp.gmail.com'
 port = '587'
 login = 'rafabdasilvadev@gmail.com'
 senha = 'umpjwfvjhdlxpcnd'
-reciever = 'marinicolea@gmail.com'
+reciever = 'seuemail@gmail.com'
 
 server = smtplib.SMTP(host, port)
 server.starttls()
