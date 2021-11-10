@@ -3,16 +3,14 @@
 
 # https://youtu.be/umvzsQLZYD4
 
-# email de app: securesally@gmail.com
-# senha de app: umpjwfvjhdlxpcnd
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 host = 'smtp.gmail.com'
 port = '587'
-login = 'rafabdasilvadev@gmail.com'
-senha = 'umpjwfvjhdlxpcnd'
+login = 'emaildeenvio@gmail.com'
+senha = ''
 reciever = 'seuemail@gmail.com'
 
 server = smtplib.SMTP(host, port)
